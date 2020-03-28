@@ -8,7 +8,7 @@ public class InvalidConsentStatusException extends ChcExperienceBaseException {
         super(errorCode, errorMessage);
     }
 
-    public InvalidConsentStatusException(Integer errorCode) {
-        super(errorCode, null);
+    public InvalidConsentStatusException(Integer errorCodeMNO) {
+        super(errorCodeMNO, null);
     }
 }
