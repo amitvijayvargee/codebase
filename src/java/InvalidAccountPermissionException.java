@@ -8,7 +8,7 @@ public class InvalidAccountPermissionException extends ChcExperienceBaseExceptio
         super(errorCode, errorMessage);
     }
 
-    public InvalidAccountPermissionException(Integer errorCode) {
-        super(errorCode, null);
+    public InvalidAccountPermissionException(Integer errorCodeABC) {
+        super(errorCodeABC, null);
     }
 }
