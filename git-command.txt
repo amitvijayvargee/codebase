@@ -1,0 +1,343 @@
+amitv@AmitVj-Laptop MINGW64 /c
+$ cd Amitv/
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv
+$ cd codebase/
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase
+$ git init
+Initialized empty Git repository in C:/Amitv/codebase/.git/
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase (master)
+$ mkdir src
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase (master)
+$ cd src
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase/src (master)
+$ mkdir java
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase/src (master)
+$ cd java/
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase/src/java (master)
+$ git add InvalidAccountPermissionException.java
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase/src/java (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   InvalidAccountPermissionException.java
+
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase/src/java (master)
+$ git reset InvalidAccountPermissionException.java
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase/src/java (master)
+$
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase/src/java (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase/src/java (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase/src/java (master)
+$ git add InvalidAccountPermissionException.java
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase/src/java (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   InvalidAccountPermissionException.java
+
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase/src/java (master)
+$ git commit -m "My first commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'amitv@AmitVj-Laptop.(none)')
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase/src/java (master)
+$ git config --global user.email "amitvijayvargee@gmail.com"
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase/src/java (master)
+$ git config --global user.name "amit vijay"
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase/src/java (master)
+$ git commit -m "My first commit"
+[master (root-commit) 8fd4e4a] My first commit
+ 1 file changed, 14 insertions(+)
+ create mode 100644 src/java/InvalidAccountPermissionException.java
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase/src/java (master)
+$ git branches
+git: 'branches' is not a git command. See 'git --help'.
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase/src/java (master)
+$ git branch
+* master
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase/src/java (master)
+$ git checkout -b NewMaster
+Switched to a new branch 'NewMaster'
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase/src/java (NewMaster)
+$ git branch
+* NewMaster
+  master
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase/src/java (NewMaster)
+$ git checkout
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase/src/java (NewMaster)
+$ git branch
+* NewMaster
+  master
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase/src/java (NewMaster)
+$ git che
+checkout      cherry        cherry-pick
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase/src/java (NewMaster)
+$ git che
+checkout      cherry        cherry-pick
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase/src/java (NewMaster)
+$ git che
+checkout      cherry        cherry-pick
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase/src/java (NewMaster)
+$ git che
+checkout      cherry        cherry-pick
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase/src/java (NewMaster)
+$ git checkout master
+Switched to branch 'master'
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase/src/java (master)
+$ git branch
+  NewMaster
+* master
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase/src/java (master)
+$ cd ..
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase/src (master)
+$ cd .
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase/src (master)
+$ cd ..
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase (master)
+$ git remote add origin https://github.com/amitvijayvargee/codebase.git
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase (master)
+$ git pu
+pull   push
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase (master)
+$ git pu
+pull   push
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase (master)
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 527 bytes | 263.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/amitvijayvargee/codebase.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase (master)
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase (NewMaster)
+$ git diff origin/master
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase (NewMaster)
+$ git f=diff
+git: 'f=diff' is not a git command. See 'git --help'.
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase (NewMaster)
+$ git diff
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase (NewMaster)
+$ git diff NewMaster
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase (NewMaster)
+$ git status
+On branch NewMaster
+nothing to commit, working tree clean
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase (NewMaster)
+$ git commit -m "my second commit"
+On branch NewMaster
+nothing to commit, working tree clean
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase (NewMaster)
+$
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase (NewMaster)
+$
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase (NewMaster)
+$ git master
+git: 'master' is not a git command. See 'git --help'.
+
+The most similar command is
+        restore
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase (NewMaster)
+$ git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase (master)
+$ git push origin
+HEAD            master          NewMaster       origin/master
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase (master)
+$ git push origin
+HEAD            master          NewMaster       origin/master
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase (master)
+$ git push origin
+HEAD            master          NewMaster       origin/master
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase (master)
+$ git push origin/master
+fatal: 'origin/master' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase (master)
+$ git push -u origin master
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 404 bytes | 202.00 KiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/amitvijayvargee/codebase.git
+   8fd4e4a..67bb2a1  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase (master)
+$ git checkout NewMaster
+Switched to branch 'NewMaster'
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase (NewMaster)
+$ git diff
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase (NewMaster)
+$ git diff master
+diff --git a/src/java/InvalidAccountPermissionException.java b/src/java/InvalidAccountPermissionException.java
+index 683b088..2104acc 100644
+--- a/src/java/InvalidAccountPermissionException.java
++++ b/src/java/InvalidAccountPermissionException.java
+@@ -8,7 +8,7 @@ public class InvalidAccountPermissionException extends ChcExperienceBaseExceptio
+         super(errorCode, errorMessage);
+     }
+
+-    public InvalidAccountPermissionException(Integer errorCodeABC) {
+-        super(errorCodeABC, null);
++    public InvalidAccountPermissionException(Integer errorCode) {
++        super(errorCode, null);
+     }
+ }
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase (NewMaster)
+$ git diff master
+diff --git a/src/java/InvalidAccountPermissionException.java b/src/java/InvalidAccountPermissionException.java
+index 683b088..9f11708 100644
+--- a/src/java/InvalidAccountPermissionException.java
++++ b/src/java/InvalidAccountPermissionException.java
+@@ -8,7 +8,7 @@ public class InvalidAccountPermissionException extends ChcExperienceBaseExceptio
+         super(errorCode, errorMessage);
+     }
+
+-    public InvalidAccountPermissionException(Integer errorCodeABC) {
+-        super(errorCodeABC, null);
++    public InvalidAccountPermissionException(Integer errorCodeXYZ) {
++        super(errorCodeXYZ, null);
+     }
+ }
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase (NewMaster)
+$ git add -A
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase (NewMaster)
+$ git commit -m "Branch commit"
+[NewMaster 66cb3be] Branch commit
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase (NewMaster)
+$ git push origin NewMaster
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 404 bytes | 202.00 KiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'NewMaster' on GitHub by visiting:
+remote:      https://github.com/amitvijayvargee/codebase/pull/new/NewMaster
+remote:
+To https://github.com/amitvijayvargee/codebase.git
+ * [new branch]      NewMaster -> NewMaster
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase (NewMaster)
+$ git status
+On branch NewMaster
+nothing to commit, working tree clean
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase (NewMaster)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+amitv@AmitVj-Laptop MINGW64 /c/Amitv/codebase (master)
+
